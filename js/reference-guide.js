@@ -88,11 +88,20 @@ function nombreFuncion(nombre, apellido){ //Argumentos
     //Aqui el codigo
 }
 
+
+// crear funcion anonima
+const funcionAnonima = function() {
+    //CODIGO AKA
+}
+
+
+llamada((function() { }));
+
+llamada(() => {  });
+
 //FUNCION ANONIMA
 
-function() {
-        
-}
+
 
 
 
