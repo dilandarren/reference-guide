@@ -1,3 +1,10 @@
+/***********************************************************************
+ * 
+ * VARIABLES
+ * 
+ ***********************************************************************/
+
+
 import { limite } from './for';
 //Creacion de variables
 
@@ -15,8 +22,7 @@ variableLet = 'Mundo';
 const variableConstAsignanda = 'Hello';
 
 //Vuejs
-// const variable = ref('');    //Declaracion
-// variable.value = 30;         //Asignacion
+
 
 
 //Creacion de  un arreglo o array
@@ -63,11 +69,34 @@ let objetoMesa = {
 console.log(objetoMesa);
 
 
+
+
+
+/***********************************************************************
+ * 
+ * FUNCIONES
+ * 
+ ***********************************************************************/
+
+
+
+
+
 //Crear metodo o funcion
 
 function nombreFuncion(nombre, apellido){ //Argumentos
     //Aqui el codigo
 }
+
+//FUNCION ANONIMA
+
+function() {
+        
+}
+
+
+
+
 
 
 
@@ -76,6 +105,13 @@ const nombreFuncionFlecha = () => { //Argumentos
     //Aqui el codigo
 }
 
+
+
+/***********************************************************************
+ * 
+ * CLASES
+ * 
+ ***********************************************************************/
 
 
 //Crear clase
