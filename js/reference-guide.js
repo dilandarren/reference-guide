@@ -128,9 +128,13 @@ class NombreClase {
 
     //AQUI LAS PROPIEDADES
     nombre;
+    apellido;
 
-    constructor() {
 
+    //Construye la classe a parti del ('-new-')
+    constructor(nombre, apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 
     //AQUI LOS METODOS O FUNCIONES DE CLASE
@@ -139,6 +143,9 @@ class NombreClase {
 
     }
 }
+
+
+    const classeNueva = new NombreClase('Dilan', 'González');
 
 //Get i Set
 
