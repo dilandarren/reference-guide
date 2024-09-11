@@ -172,7 +172,6 @@ nombreVariable.edad = 38;
         /{{ variableParaEnviar }}
     </p>
 
-    
 
     ...
 
