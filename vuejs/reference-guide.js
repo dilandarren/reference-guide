@@ -17,6 +17,7 @@
  -Cuando este presente los ':' hace referencia a una variable. Ex: :src="unaVariable" / :unaVariable="unaVarible"
  -Cuando este presente el 'v-model' hace referencia a los inputs. Ex: <input v-model="nombre" />
  -Aqui NO SE UTILIZA el ".value" para las variables
+ 
 
 
  Script <script></script>
@@ -24,6 +25,13 @@
 
 
 
+//EMITS
+
+
+
+//-En el nombre de la funcion del padre se escribe en camelCase. Ex : 1) Declaracion de la funcion: const definirPresupuesto = () => {Cuerpo de la funcion/ Codígo}.2)Declaracion de la funcion: En el componente: @definir-presupuesto="definirPresupuesto"
+
+//-En el nombre de la funcion del hijo se escribe con '-', Ex: 1) se recibe la funcion: const emit = defineEmits(['ocultar-modal']). 2) En la etiqueta: @ocultar-modal="ocultarModal"
 
 
 
