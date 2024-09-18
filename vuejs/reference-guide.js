@@ -9,9 +9,9 @@
 /**
 
  Notas:
-
- Template <template></template>
-
+------------------------------------------------------------------
+    ----------- Template <template></template> -----------
+------------------------------------------------------------------
 
  -Cuando este presente una '@' hace referencia a una funcion. Ex: @click.prevent="unaFuncion"
  -Cuando este presente los ':' hace referencia a una variable. Ex: :src="unaVariable" / :unaVariable="unaVarible"
@@ -19,9 +19,9 @@
  -Aqui NO SE UTILIZA el ".value" para las variables
  
 
-
- Script <script></script>
-
+------------------------------------------------------------------
+       ----------- Script <script></script>  -----------
+------------------------------------------------------------------
 
 
 
@@ -51,7 +51,19 @@ En el HIJO se escriben con el 'defineProps()'.
             required: true
         }
     })
- */
+
+
+
+
+------------------------------------------------------------------
+   ----------- Style: (solo el SCSS) <style></style> -----------
+------------------------------------------------------------------
+
+En la etiqueta <style></style>
+ -Cuando no tiene ninguna propiedad el estilo es para todo el proyecto, se aplica todos los componentes
+ -Cuando tiene la propiedad "scopet" <style scoped></style> se utiliza solamente en el componente.
+ -Cuando tiene la propiedad 'lang="scss" <style scoped></style> hace referencia a código SASS.
+*/
 
 
 
